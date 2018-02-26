@@ -1,0 +1,139 @@
+/* Hello and welcome to my CSS style guide */
+
+
+html {
+  box-sixing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Media Queries */
+@media (max-width: 600px;) {
+  body {
+    background-color: gray;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: aqua;
+    text-align: right;
+  }
+  img {
+    max-width: 50vw;
+    max-height: 50vw;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  img {
+    max-width: 25vw;
+    max-height: 25vw;
+  }
+}
+
+/* Applies to all text in the body */
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-style: 400;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: 1.5;
+}
+
+header {
+ text-align: center;
+}
+
+
+/* Width of all my article */
+
+article {
+  max-width: 720px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+/* Heading Look */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-style: 700;
+}
+/*subheaders, pull quotes, lead paragraph, other large text thingys on page */
+h2, h3, h4, h5, {
+  font-family: 'Montserrat', sans-serif;
+	font-style: 400;
+  font-size: 20px;
+  line-height: 1.15;
+}
+/*Hovery stuff for my byline and links*/
+h4 {
+  font-style: 700;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-style: 700;
+}
+
+
+/* a Link attributes - Here are links! */
+a {
+ color: blue;
+}
+/* Links change color when hovering over */
+a:hover {
+    color: #cc99ff;
+}
+
+/*BUTTON STUFF */
+
+#show {
+  background-color: red;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: 700;
+  outline: none;
+}
+
+#hide {
+  background-color: yellow;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: 700;
+  outline: none;
+
+}
+
+
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+footer p {
+  padding: 5px;
+}
+
+
